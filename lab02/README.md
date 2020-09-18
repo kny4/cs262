@@ -6,7 +6,7 @@ This lab is based on [CS262](https://cs.calvin.edu/courses/cs/262/kvlinden/02man
 
 * Answers to Exercise 2.4
    * What is the name of the component in this application?
-      * The name of te component is "App" in this application.
+      * The name of the component is "App" in this application.
 
    * Name one prop and one state element in the code.
       * Prop element: style,  
