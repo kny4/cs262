@@ -1,6 +1,6 @@
 **CS 262 - Lab 2**
 
-This lab is based on [CS262](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html)
+This lab is based on [CS262-lab02](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html)
 
 * Done with Belina Sainju and partially in discussion with Team H (aka the HabitBuddies)
 
