@@ -1,0 +1,13 @@
+1. Demographics	
+  a. Class Level: Junior
+  b. Major: BSE, Mechanical concentration (with minors in mathematics and computer science)
+  c. CS 112: A-, currently taking CS 212
+2. Technical
+  a. I have not worked either JavaScript apps or SQL database systems
+  b. I have used both Slack and Trello on the Mars Rover Design Team, but ahv enot used Git/GitHub
+  c. I like the idea of creating a system for notifyhing students and teachers of their mail through a Mail services app at Calvin. 
+     I also think it would be interesting to create an app that helps you connect with people on campus with similar interests or habits as you (such as running in the evenings or doing morning prayer walks).
+3. Personality
+  a. Personality Type: Empathic Idealist
+  b. I would like to work with Belina Sainju!
+4. I really like dinosaurs, but don't see much of a way to implement it into a tractable (and publically desirable) application.	

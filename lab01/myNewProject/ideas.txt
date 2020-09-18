@@ -1,0 +1,9 @@
+	I think it would be interesting (but maybe not tractable...) to create an app that plays music/audiobooks/podcasts 
+only when you're actually being active. It's good for people like me who are inherently un-exercised and need the extra 
+incentive to workout. So, when you want to listen to a new album or get to the end of the chpater of a book you're in the 
+middle of, you'll have to at least go for a walk to enjoy it.
+
+	A wackier app I would love to have would be one that scans you like Baymax from Big Hero 6 and acts as a portable 
+nurse. It could give you sound medical advice and help you book a doctor's appointment if needed. It can also work on other 
+people who don't have the app, but I think it would probably record your perosnal data for future use. Maybe it can even call 
+911 for you in emergencies!
