@@ -1,6 +1,6 @@
 **CS 262 - Lab 1**
 
-* This lab is based on [Expo](https://expo.io/learn)
+* This lab is based on [Expo Get Started](https://expo.io/learn)
 
 * Answers to Exercise 1.3:
   * App.js - file with some of the project code in it and is the editable code for the app itself
