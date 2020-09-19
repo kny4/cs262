@@ -1,6 +1,6 @@
 # CS 262 - Lab 2
 
-### This lab is based on NetNinja's [React Native Tutorial](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html) (videos #4-8).
+### This lab is based on NetNinja's React Native Tutorial (videos #4-8)and [CS262-lab2](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html).
 
 #### Done with Belina Sainju and partially in discussion with Team H (aka the HabitBuddies)
 
