@@ -6,17 +6,17 @@
 
 ### Answers to Exercise 2.4:
    #### What is the name of the component in this application?
-      * The name of the component is "App" in this application.
+   ##### The name of the component is "App" in this application.
 
    #### Name one prop and one state element in the code.
-      * Prop element: style,  
-      * State element: name, age, newAge, birthdays
+   ##### Prop element: style,  
+   ##### State element: name, age, newAge, birthdays
 
    #### How are curly braces ({}) used in the JSX code.
-      * Curly brackets are used to reference variables and objects in the JSX code.
+   ##### Curly brackets are used to reference variables and objects in the JSX code.
    
    #### Identify one anonymous function in the code.
-      * "ClickHandler" is an anonymous function because it is written without a name or function keyword.
+   ##### "ClickHandler" is an anonymous function because it is written without a name or function keyword.
 
    #### Does the application, when run on either Android or iOS, use HTML and/or CSS?
-      * When run, the application uses neither HTML nor CSS; it uses JavaScript.
+   ##### When run, the application uses neither HTML nor CSS; it uses JavaScript.
