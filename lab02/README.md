@@ -1,10 +1,10 @@
-**CS 262 - Lab 2**
+# CS 262 - Lab 2
 
-This lab is based on [CS262-lab02](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html).
+### This lab is based on [CS262-lab02](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html).
 
-* Done with Belina Sainju and partially in discussion with Team H (aka the HabitBuddies)
+### Done with Belina Sainju and partially in discussion with Team H (aka the HabitBuddies)
 
-* Answers to Exercise 2.4
+### Answers to Exercise 2.4
    * What is the name of the component in this application?
       * The name of the component is "App" in this application.
 
