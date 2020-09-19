@@ -2,7 +2,7 @@
 
 ### This lab is based on Net Ninja's [React Native Tutorial](https://cs.calvin.edu/courses/cs/262/kvlinden/02management/lab.html) (videos #4-8).
 
-##### Done with Belina Sainju and partially in discussion with Team H (aka the HabitBuddies)
+#### Done with Belina Sainju and partially in discussion with Team H (aka the HabitBuddies)
 
 ### Answers to Exercise 2.4:
    #### What is the name of the component in this application?
