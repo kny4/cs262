@@ -5,8 +5,8 @@
 ### Done with Belina Sainju and partially in discussion with Team H (aka the HabitBuddies)
 
 ### Answers to Exercise 2.4:
-    #### What is the name of the component in this application?
-    ##### The name of the component is "App" in this application.
+   #### What is the name of the component in this application?
+   ##### The name of the component is "App" in this application.
 
    #### Name one prop and one state element in the code.
    ##### Prop element: style,  
