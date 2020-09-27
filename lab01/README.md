@@ -1,4 +1,4 @@
-# CS262 - Lab 1
+# Lab 01
 
 This lab is based on [Expo Get Started](https://expo.io/learn).
 
