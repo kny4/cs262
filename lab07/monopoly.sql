@@ -58,11 +58,11 @@ INSERT INTO Player VALUES (3, 'dog@gmail.edu', 'Dogbreath');
 --added cash and position by kny4
 INSERT INTO PlayerGame VALUES (1, 1, 0.00, 1, 'start');
 INSERT INTO PlayerGame VALUES (1, 2, 0.00, 1, 'start');
-INSERT INTO PlayerGame VALUES (1, 3, 2350.00, 1, 'start');
-INSERT INTO PlayerGame VALUES (2, 1, 1000.00, 1, 'start');
+INSERT INTO PlayerGame VALUES (1, 3, 2350.00, 1, 'Boardwalk');
+INSERT INTO PlayerGame VALUES (2, 1, 1000.00, 1, 'Railroad');
 INSERT INTO PlayerGame VALUES (2, 2, 0.00, 1, 'start');
-INSERT INTO PlayerGame VALUES (2, 3, 500.00, 1, 'start');
-INSERT INTO PlayerGame VALUES (3, 2, 0.00, 1, 'start');
+INSERT INTO PlayerGame VALUES (2, 3, 500.00, 1, 'Baltic Ave');
+INSERT INTO PlayerGame VALUES (3, 2, 0.00, 1, 'Vermont Ave');
 INSERT INTO PlayerGame VALUES (3, 3, 5500.00, 1, 'start');
 
 --added by kny4
