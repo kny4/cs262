@@ -10,5 +10,5 @@ CS 262 [Lab 7](https://cs.calvin.edu/courses/cs/262/kvlinden/07is/lab.html).
  
 **PlayerGame**(<ins>gameID</ins>, <ins>playerID</ins>, score, cash, position)
   
-**GameProperty**(<ins>gameID</ins>, <ins>playerID</ins>, propery, development)
+**GameProperty**(<ins>gameID</ins>, <ins>playerID</ins>, property, development)
 
