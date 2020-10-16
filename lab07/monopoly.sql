@@ -66,7 +66,6 @@ INSERT INTO PlayerGame VALUES (3, 2, 0.00, 1, 'Vermont Ave');
 INSERT INTO PlayerGame VALUES (3, 3, 5500.00, 1, 'start');
 
 --added by kny4
-
 INSERT INTO GameProperty VALUES (1, 'Boardwalk', 1, 'hotel');
 INSERT INTO GameProperty VALUES (2, 'Boardwalk', 2, 'house');
 INSERT INTO GameProperty VALUES (3, 'Boardwalk', 3, 'none');
