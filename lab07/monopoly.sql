@@ -39,7 +39,7 @@ CREATE TABLE GameProperty (
 	property varchar(50),
 	development varchar(50),
 	PRIMARY KEY (gameID, property)
-)
+);
 -- Allow users to select data from the tables.
 GRANT SELECT ON Game TO PUBLIC;
 GRANT SELECT ON Player TO PUBLIC;
@@ -66,8 +66,8 @@ INSERT INTO PlayerGame VALUES (3, 2, 0.00, 1, 'Vermont Ave');
 INSERT INTO PlayerGame VALUES (3, 3, 5500.00, 1, 'start');
 
 --added by kny4
-INSERT INTO GameProperty VALUES (1, 'Boardwalk', 1, 'hotel');
-INSERT INTO GameProperty VALUES (2, 'Boardwalk', 2, 'house');
-INSERT INTO GameProperty VALUES (3, 'Boardwalk', 3, 'none');
-INSERT INTO GameProperty VALUES (1, 'Electric Company', 3, 'none');
-INSERT INTO GameProperty VALUES (1, 'New York Ave', 3, 'house');
+INSERT INTO GameProperty VALUES (1, 1, 'Boardwalk', 'hotel');
+INSERT INTO GameProperty VALUES (2, 2, 'Boardwalk', 'house');
+INSERT INTO GameProperty VALUES (3, 3, 'Boardwalk', 'none');
+INSERT INTO GameProperty VALUES (1, 3, 'Electric Company', 'none');
+INSERT INTO GameProperty VALUES (1, 3, 'New York Ave', 'house');
