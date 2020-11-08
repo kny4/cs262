@@ -9,27 +9,27 @@ The database is relational with the schema specified in the `sql/` sub-directory
 
 ### Homework3 Questions
 a. What are the (active) URLs for your data service?
-https://guarded-refuge-72375.herokuapp.com/
-https://guarded-refuge-72375.herokuapp.com/games
-https://guarded-refuge-72375.herokuapp.com/players
-https://guarded-refuge-72375.herokuapp.com/players/:id
-router.put("/players/:id", updatePlayer);
-router.post('/players', createPlayer);
-router.delete('/players/:id', deletePlayer);
+* https://guarded-refuge-72375.herokuapp.com/
+* https://guarded-refuge-72375.herokuapp.com/games
+* https://guarded-refuge-72375.herokuapp.com/players\n
+* https://guarded-refuge-72375.herokuapp.com/players/:id
+* router.put("/players/:id", updatePlayer);
+* router.post('/players', createPlayer);
+* router.delete('/players/:id', deletePlayer);
 
 b. Which of these endpoints implement actions that are idempotent? nullipotent?
-nullipotent: 
-https://guarded-refuge-72375.herokuapp.com/
-https://guarded-refuge-72375.herokuapp.com/games
-https://guarded-refuge-72375.herokuapp.com/players
-https://guarded-refuge-72375.herokuapp.com/players/:id
-router.post('/players', createPlayer);
-idempotent:
-router.put("/players/:id", updatePlayer);
-router.delete('/players/:id', deletePlayer);
+* nullipotent: 
+  * https://guarded-refuge-72375.herokuapp.com/
+  * https://guarded-refuge-72375.herokuapp.com/games
+  * https://guarded-refuge-72375.herokuapp.com/players
+  * https://guarded-refuge-72375.herokuapp.com/players/:id
+  * router.post('/players', createPlayer);
+* idempotent:
+  * router.put("/players/:id", updatePlayer);
+  * router.delete('/players/:id', deletePlayer);
 
 c. Is the service RESTful? If not, why not? If so, what key features make it RESTful.
-The service is RESTful because it implements the common http methods: get, post, delete, and put.
+* The service is RESTful because it implements the common http methods: get, post, delete, and put.
 
 d. Is there any evidence in your implementation of an impedance mismatch?
-Since there are differences between the tables and classes, there is an impedance mismatch. 
+* Since there are differences between the tables and classes, there is an impedance mismatch. 
