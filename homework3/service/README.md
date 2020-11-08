@@ -1,4 +1,4 @@
-# Service
+# Homework3 Service
 
 This is the data service application for [Homework3](https://github.com/calvin-cs262-organization/monopoly-project) 
 and it is deployed here: <https://evening-lowlands-31799.herokuapp.com/>
