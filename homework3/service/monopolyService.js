@@ -33,7 +33,7 @@ router.get("/players/:id", readPlayer);
 router.put("/players/:id", updatePlayer);
 router.post('/players', createPlayer);
 router.delete('/players/:id', deletePlayer);
-router.get("/winner", readWinner);
+router.get("/games", readGames);
 
 app.use(router);
 app.use(errorHandler);
@@ -110,17 +110,14 @@ function deletePlayer(req, res, next) {
         });
 }
 
-// Get name of winner of game played on 2006-06-28 13:20:00 (kny4)
+// Get all game info
 
-function readWinner(req, res, next) {
-    db.oneOrNone('WHERE Player.ID = PlayerGame.playerID AND PlayerGame.gameID = Game.ID AND time = 2006-06-28 13:20:00 ORDER BY score DESC LIMIT 1')
+function readGames(req, res, next) {
+    db.many("SELECT gameID, Player.name, score FROM Player, Game, PlayerGame WHERE Player.ID = PlayerGame.playerID AND PlayerGame.gameID = Game.ID")
         .then(data => {
-            returnDataOr404(res, data);
+            res.send(data);
         })
         .catch(err => {
             next(err);
-        });
+        })
 }
-
-
-

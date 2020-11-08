@@ -3,13 +3,12 @@ import { ActivityIndicator, StyleSheet, View, Text, TouchableOpacity, FlatList }
 import { globalStyles } from '../styles/global';
 import Card from '../shared/card';
 
-//modified from Lab05 to fetch data from Monopoly Service hosted on Heroku
 export default function Home({ navigation }) {
     const [isLoading, setLoading] = useState(true);
     const [data, setData] = useState([]);
   
     useEffect(() => {
-      fetch('https://hidden-anchorage-71164.herokuapp.com/players/')
+      fetch("https://guarded-refuge-72375.herokuapp.com/games")
           .then((response) => response.json())
           .then((json) => setData(json))
           .catch((error) => console.error(error))
@@ -18,17 +17,18 @@ export default function Home({ navigation }) {
 
     return (
         <View style={globalStyles.container}>
+            {isLoading ? <ActivityIndicator/> : (
                 <FlatList 
                     data={data} 
-                    keyExtractor={({ id }, index) => id.toString()}
                     renderItem={({ item }) => (
-                    <TouchableOpacity onPress={() => navigation.navigate('ReviewDetails', {id: item.id, email: item.emailaddress, name: item.name})}>
+                    <TouchableOpacity onPress={() => navigation.navigate('ReviewDetails', item)}>
                         <Card>
-                            <Text style={globalStyles.titleText}>{ item.emailaddress }</Text>
+                            <Text style={globalStyles.titleText}>Game: { item.gameid }</Text>
                         </Card>
                     </TouchableOpacity>
                     )} 
                 />
+            )}
         </View>
     );
 }

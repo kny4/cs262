@@ -56,13 +56,14 @@ SELECT player.ID
 FROM PlayerGame
 WHERE score > 2000
 ;
+
 -- Get list of players with GMail accounts.
 SELECT *
 FROM Player
 WHERE emailAddress LIKE '%gmail%'
 ;
 
--- Get all scores of "The King in descreasing order"
+-- Get all scores of "The King" in descreasing order
 SELECT score
 FROM Player, PlayerGame
 WHERE Player.ID = PlayerGame.playerID
