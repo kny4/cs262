@@ -1,9 +1,9 @@
 # Homework3 Service
 
-This is the data service application for [Homework3](https://github.com/calvin-cs262-organization/monopoly-project) 
+This is the data service application for [Homework 3](https://github.com/calvin-cs262-organization/monopoly-project) 
 and it is deployed here: <https://evening-lowlands-31799.herokuapp.com/>
 
-It is based on the standard [Heroku with Node.js tutorial](https://devcenter.heroku.com/articles/getting-started-with-nodejs) and [Lab09](https://github.com/kny4/cs262/tree/master/lab09)
+It is based on the standard [Heroku with Node.js tutorial](https://devcenter.heroku.com/articles/getting-started-with-nodejs) and [Lab 9](https://github.com/kny4/cs262/tree/master/lab09)
 
 The database is relational with the schema specified in the `sql/` sub-directory, and is hosted on [ElephantSQL](https://www.elephantsql.com/). The database user and password are stored as Heroku configuration variables rather than in this (public) repo.
 
